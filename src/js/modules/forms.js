@@ -24,15 +24,15 @@ function forms() {
         return await res.json();
     };
 
-    async function getResource(url) {
-        let res = await fetch(url);
+    // async function getResource(url) {
+    //     let res = await fetch(url);
 
-        if (!res.ok) {
-            throw new Error(`Could not fetch ${url}, status: ${res.status}`);
-        }
+    //     if (!res.ok) {
+    //         throw new Error(`Could not fetch ${url}, status: ${res.status}`);
+    //     }
 
-        return await res.json();
-    }
+    //     return await res.json();
+    // }
 
     function bindPostData(form) {
         form.addEventListener("submit", (e) => {
