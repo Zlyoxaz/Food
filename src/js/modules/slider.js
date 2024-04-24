@@ -1,4 +1,4 @@
-const slider = function () {
+function slider() {
     // Slider
 
     let offset = 0;

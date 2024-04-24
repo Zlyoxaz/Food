@@ -1,4 +1,4 @@
-const modal = function () {
+function modal() {
 
     // Modal
 

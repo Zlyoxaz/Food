@@ -1,4 +1,4 @@
-const timer = function () {
+function timer() {
 
     // Timer
 

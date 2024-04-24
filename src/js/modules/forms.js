@@ -1,4 +1,4 @@
-const forms = function () {
+function forms() {
     // Forms
 
     const forms = document.querySelectorAll("form");
